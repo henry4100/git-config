@@ -5,18 +5,33 @@ This tarball contains the following vim plugins and programmes:
 ag - silver searcher
 
 #Plugins
-gvim-surround'                " Encapsulate text in chars
-gvim-fugitive'                " Adds git functionality
-gnerdcommenter'               " Smart IDE like commenting
-ggruvbox'                     " Color Scheme
-gauto-pairs'                  " Autocomplete brackets
-gale'                         " Linter manager (needs seperate lints)
-gvim-airline'                 " Better status bar
-gvim-airline-themes'          " Airline status bar themes
-gnerdtree'                    " Folder structure viewer
-gjedi-vim', {'for': 'python'} " Python auto features
-gonehalf', { 'rtp': 'vim'  }  " A nice colour scheme
-gany-jump.vim'                " Jump to ref/def
-gSimpylFold'                  " Code folding
-gfzf', { 'do': { -> fzf#install()  }  } " enable fzy finder
-gfzf.vim'                               " Fuzzy finder
+
+vim-surround               " Encapsulate text in chars
+
+vim-fugitive                " Adds git functionality
+
+nerdcommenter               " Smart IDE like commenting
+
+gruvbox                     " Color Scheme
+
+auto-pairs                  " Autocomplete brackets
+
+ale                         " Linter manager (needs seperate lints)
+
+vim-airline                 " Better status bar
+
+vim-airline-themes          " Airline status bar themes
+
+nerdtree                    " Folder structure viewer
+
+jedi-vim, {'for': 'python'} " Python auto features
+
+onehalf, { 'rtp': 'vim'  }  " A nice colour scheme
+
+any-jump.vim                " Jump to ref/def
+
+SimpylFold                  " Code folding
+
+fzf', { 'do': { -> fzf#install()  }  } " enable fzy finder
+
+fzf.vim                               " Fuzzy finder
